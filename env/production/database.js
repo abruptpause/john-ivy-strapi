@@ -4,11 +4,11 @@ module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
     connection: {
-      host: config.host,
-      port: config.port,
-      database: config.database,
-      user: config.user,
-      password: config.password,
+      host: 'ec2-54-227-248-71.compute-1.amazonaws.com',
+      port: 5432,
+      database: 'd670kjg3kfdp3b',
+      user: 'vwpaqjmybrnacy',
+      password: '498acfd928d0512bbf87631bc6d7e662d80f33f086a3d6663f8d7acdbe181892',
       ssl: {
         rejectUnauthorized: false
       },
